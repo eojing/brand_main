@@ -1,36 +1,26 @@
+body{background: #0F0A07;}
 .wrap{max-width: 1080px; width: 100%; margin: 0 auto; text-align: center;}
 .cont{position: relative;}
-.cont:nth-child(1){height: 194.4444vw;}
+.cont:nth-child(1){height: 180.5556vw;}
 
 .close_btn{position: absolute; top: 2.5vw; right: 2.7778vw; max-width: 6.1111vw; width: 100%; z-index: 100;}
 .main_tit_wrap{position: absolute; z-index: 10; top: 13.8889vw; left: 50%; transform: translateX(-50%);}
-.sub_tit_wrap{width: 100%; position: absolute; z-index: 10; bottom: 19.1667vw; left: 50%; transform: translateX(-50%);}
-.sub_tit_wrap p{font-size: 5.5556vw; line-height: 6.6667vw;}
-.sub_tit_wrap p:last-child{letter-spacing: 0.6389vw;}
-.namuh_logo{max-width: 26.3889vw; width: 100%; margin: 0 auto 1.3889vw;} 
+.sub_tit_wrap{width: 100%; position: absolute; z-index: 10; bottom: 22.2222vw; left: 50%; transform: translateX(-50%);}
+.sub_tit{max-width: 77.7778vw; width: 100%; margin: 0 auto;}
+.namuh_logo{max-width: 43.6111vw; width: 100%; margin: 0 auto 1.3889vw;} 
 .black_bg{position: absolute; left: 0; width: 100%; z-index: 10;}
-.black_bg_top{    top: 0;
-    left: 0;
-    max-height: 70.5556vw;
-    height: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 20%, transparent 100%);}
-.black_bg_bottom{bottom: 0;
-    left: 0;
-    max-height: 86.6667vw;
-    height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, transparent 100%);}
+.black_bg_top{top: 0;left: 0;max-height: 70.5556vw;height: 100%;background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 20%, transparent 100%);}
+.black_bg_bottom{bottom: 0;left: 0;max-height: 86.6667vw;height: 100%;background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, transparent 100%);}
 video{width: 100%; display: block;}
 .logo{position: absolute; z-index: 10; top: 20.8333vw;}
-.bg_img, .bg_video{height: 194.4444vw; overflow: hidden;}
+.bg_img, .bg_video{height: 180.5556vw; overflow: hidden;}
 .bg_img{position: absolute; z-index: 1;}
 .bg_video{position: relative; z-index: 2;}
-.text_img{max-width: 69.4444vw; width: 100%; position: absolute; top: 44vw; left: 50%; transform: translateX(-50%); z-index: 100;}
 
 .cont2{padding: 8.3333vw 0;background: #000;}
 .cont3{padding: 0 0 412.0556vw; background: #0f0d08;}
 .event_img{position: absolute; top: 141.6667vw;}
-.tit_wrap{position: absolute; top: 11.1111vw; max-width: 75.5556vw; width: 100%; left: 50%; transform: translateX(-50%);}
-.label{margin-bottom: 3.0556vw;}
+.character{position: absolute; max-width: 26.5000vw; width: 100%; left: 0; top: 99.4444vw; z-index: 1;}
 .quiz{position: absolute; top: 121.6667vw;}
 
 .cont5{padding: 11.1111vw 4.4444vw 9.4444vw; background: #023940;}
@@ -38,10 +28,40 @@ video{width: 100%; display: block;}
 
 .swiper-slide{max-width: 69.4444vw; width: 100%; margin-right: 5.5556vw;}
 .swiper-slide:last-child{margin-right: 0;}
-.share_wrap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.share_btn{max-width: 25vw; width: 100%; margin: 0 auto;}
 
+.top_scroll_btn{max-width: 15vw; width: 100%; position: fixed; bottom: 8.3333vw; left: 82.2222vw; z-index: 10; opacity: 0; pointer-events: none; transition: all 0.2s ease-in-out;}
+.top_scroll_btn_on{opacity: 1; pointer-events: all;}
+
+
+
+@media (min-width : 650px) {
+
+    .cont:nth-child(1){height: 722.219px;}
+    .logo img{width: 75%; margin: 0 auto;}
+
+
+    .wrap{max-width: 400px;}
+    .bg_img, .bg_video{height: 722.219px;}
+    .close_btn{max-width: 24.44px; top: 10px; right: 11.111px;}
+    .top_scroll_btn{max-width: none;width: 60px;bottom: 33.333px;transform: translateX(190px);right: 50%;left: auto;}
+
+
+    .black_bg_top{max-height: 282px;}
+    .black_bg_bottom{max-height: 347px;}
+    .main_tit_wrap{top: 55.556px;}
+    .namuh_logo{width: 174.438px;}
+    .sub_tit_wrap{bottom: 88.889px;}
+    .sub_tit{width: 311.109px;}
+    .cont2{padding: 33.333px 0;}
+    .logo{top: 83.333px;}
+    .character{position: absolute; max-width: 106px; width: 100%; left: 0; top: 398px; z-index: 1;}
+    .quiz{top: 463px;}
+    .cont3{padding-bottom: 1648.220px;}
+    .event_img{top: 566.667px;}
+    .cont5{padding: 44.444px 17.778px 37.778px;}
+    .swiper-slide{max-width: 277.766px; margin-right: 22.222px;}
+    .swiper_tit{margin-bottom: 33.333px; max-width: 212.219px;}
+    .share_wrap{margin-top: 44.444px;}
+    .share_btn{max-width: 100px;}
 }
-.share_icon{max-width: 3.8889vw; width: 100%;}
