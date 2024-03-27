@@ -75,7 +75,7 @@ video{width: 100%; display: block;}
     left: 11%;
 }
 
-.cont5{padding: 11.1111vw 4.4444vw 9.4444vw; background: #023940;}
+.cont5{padding: 0 4.4444vw 9.4444vw; background: #023940;}
 .swiper_tit{max-width: 53.0556vw; width: 100%;}
 
 .swiper-slide{max-width: 69.4444vw; width: 100%; margin-right: 5.5556vw;}
@@ -118,7 +118,7 @@ video{width: 100%; display: block;}
 
 
     .event_img{top: 566.667px;}
-    .cont5{padding: 44.444px 17.778px 37.778px;}
+    .cont5{padding: 0 17.778px 37.778px;}
     .swiper-slide{max-width: 277.766px; margin-right: 22.222px;}
     .swiper_tit{margin-bottom: 33.333px; max-width: 212.219px;}
     .share_wrap{margin-top: 44.444px;}
